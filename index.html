@@ -110,14 +110,6 @@
       object-fit: cover;
     }
 
-    .step {
-      margin-bottom: 90vh;
-      padding: 10px;
-      background-color: rgba(0, 0, 0, 0.5);
-      color: white;
-      border: none;
-    }
-
     /* margin on mobile */
     @media (max-width: 640px) {
       body {
@@ -154,29 +146,50 @@
       <video src="" style="display: none;" muted></video>
     </div>
     <div class="steps-container">
+
       <div class="step" id="step1">
         <div>
-          <p>As the rain poured, the protest continued with chants echoing through the congested square, such as "Disclose, Divest, We Will Not Stop, We Will Rest" and "Free, Free, Free Palestine." The organizers live-streamed the protest to medical aid professionals in Gaza and read a testimony from a mother whose six children were killed in an attack as they went to prepare a meal. The protesters remained determined to continue bringing attention to the ongoing conflict and calling for action.</p>
+          <p>As the rain poured, the protest continued with chants — "Disclose, Divest, We Will Not Stop, We Will Rest" and "Free, Free, Free Palestine." This was also live-streamed to viewers in Palestine. </p>
         </div>
+
       </div>
+
       <div class="step" id="step2">
-        <p>A married couple of Jewish faith were distributing 🍉pins. Several protestors rushed to take their posters after the rain washed them.</p>
+        <p>A married couple of Jewish faith were distributing 🍉 pins.</p>
       </div>
+
       <div class="step" id="step3">
-        <p>A person who uses a wheelchair takes a 🍉pin at the protest. Some of the phrases on the person's umbrella said "GenocideJoe," , "Ceasefire No, and. "Biden ➡️Traitor".</p>
+      <p> Several protestors rushed to take their posters after the rain washed them.</p>
       </div>
+
       <div class="step" id="step4">
+      <p> Ejlat Feur, on of the makers of 🍉 pin, walks in front of New York Police Department on bikes. </p>  
+      </div>
+
+      <div class="step" id="step5">
+        <p>A person who uses a wheelchair takes a 🍉 pin at the protest.</p>
+      </div>
+
+      <div class="step" id="step6">
+      <p> Some of the phrases on the person's umbrella said "GenocideJoe,", "Ceasefire No, and. "Biden ➡️Traitor". </p> 
+      </div>
+
+      <div class="step" id="step7">
         <p>As the protesters cross the street, a person in a nearby car waves a Palestinian flag in a show of solidarity with the demonstration.</p>
       </div>
-      <div class="step" id="step5">
+
+      <div class="step" id="step8">
         <p>A volunteer on a bicycle rides alongside the demonstration, helping to keep the protesters safe from pro-Israel aggressors.</p>
       </div>
-      <div class="step" id="step6">
+
+      <div class="step" id="step9">
         <p>Protesters march across a crosswalk, while on the opposite side, NYPD officers monitor the demonstration. Where do you stand?</p>
       </div>
-      <div class="step" id="step7">
+
+      <div class="step" id="step10">
         <p>Protesters march across a crosswalk, with one demonstrator leading chants in support of Gaza.</p>
       </div>
+
     </div>
   </section>
   <div class="content">
@@ -232,11 +245,14 @@
 
     d3.select("#step1").on('stepin', () => updateMedia("#scrolly-images", "image", "image1.jpg"));
     d3.select("#step2").on('stepin', () => updateMedia("#scrolly-images", "image", "image2.jpg"));
-    d3.select("#step3").on('stepin', () => updateMedia("#scrolly-images", "image", "image5.jpg"));
-    d3.select("#step4").on('stepin', () => updateMedia("#scrolly-images", "image", "image7.jpg"));
-    d3.select("#step5").on('stepin', () => updateMedia("#scrolly-images", "image", "image8.jpg"));
-    d3.select("#step6").on('stepin', () => updateMedia("#scrolly-images", "image", "image9.jpg"));
-    d3.select("#step7").on('stepin', () => updateMedia("#scrolly-images", "video", "video10.mp4"));
+    d3.select("#step3").on('stepin', () => updateMedia("#scrolly-images", "image", "image3.jpg"));
+    d3.select("#step4").on('stepin', () => updateMedia("#scrolly-images", "image", "image4.jpg"));
+    d3.select("#step5").on('stepin', () => updateMedia("#scrolly-images", "image", "image5.jpg"));
+    d3.select("#step6").on('stepin', () => updateMedia("#scrolly-images", "image", "image6.jpg"));
+    d3.select("#step7").on('stepin', () => updateMedia("#scrolly-images", "image", "image7.jpg"));
+    d3.select("#step8").on('stepin', () => updateMedia("#scrolly-images", "image", "image8.jpg"));
+    d3.select("#step9").on('stepin', () => updateMedia("#scrolly-images", "image", "image9.jpg"));
+    d3.select("#step10").on('stepin', () => updateMedia("#scrolly-images", "video", "video10.mp4"));
   </script>
 </body>
 
