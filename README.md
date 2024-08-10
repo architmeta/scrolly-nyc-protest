@@ -6,4 +6,4 @@ This is my first attempt at creating a scrolly telling story. It is a photo essa
 ## Photos
 The photos included in this project were captured using my Pixel 6a. You can find the photos with citations and links to my social profiles: [Linkedin](https://www.linkedin.com/in/architjm/), [X](https://twitter.com/ArchitMeta)
 
-[Link to story]()
+[Link to story](https://architmeta.github.io/scrolly-nyc-protest/index.html)
